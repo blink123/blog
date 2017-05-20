@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans xmlns="http://www.springframework.org/schema/beans"  
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"   
+    xsi:schemaLocation="http://www.springframework.org/schema/beans  
+    http://www.springframework.org/schema/beans/spring-beans-4.0.xsd ">  
+      
+    <bean id="datasource"
+        class="org.springframework.jdbc.datasource.DriverManagerDataSource">  
+        <property name="driverClassName" value="com.mysql.jdbc.Driver" />  
+        <!--注意一下&characterEncoding要修改为&amp;characterEncoding-->  
+    <property name="url" value="jdbc:mysql://localhost:3306/myblog?useUnicode=true&amp;characterEncoding=utf-8&amp;useSSL=true"/>        
+        <property name="username" value="root"/>  
+        <property name="password" value="root" />
+    </bean>         
+      
+    <bean id="articleDaoImp"  
+        class="jmk.system.dao.impl.ArticleDaoImp">  
+        <property name="datasource" ref="datasource" />  
+    </bean>
+          
+    <bean id="commentDaoImp"  
+        class="jmk.system.dao.impl.CommentDaoImp">  
+        <property name="datasource" ref="datasource" />  
+    </bean>
+     <bean id="privateletterDaoImp"  
+        class="jmk.system.dao.impl.PrivateLetterDaoImp">  
+        <property name="datasource" ref="datasource" />  
+    </bean>
+    
+          
+    <bean id="BloggerDaoImp"  
+        class="cx.system.dao.impl.BloggerDaoImp">  
+        <property name="datasource" ref="datasource" />  
+    </bean>   
+          
+    <bean id="FriendDaoImp"  
+        class="cx.system.dao.impl.FriendDaoImp">  
+        <property name="datasource" ref="datasource" />  
+    </bean>   
+    
+    <bean id="RecommandDaoImpl"  
+        class="liujiawei.recommand.daoImpl.RecommandDaoImpl">  
+        <property name="datasource" ref="datasource" />  
+    </bean>            
+          
+</beans>

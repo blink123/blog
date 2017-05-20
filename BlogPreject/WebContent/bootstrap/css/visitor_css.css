@@ -1,0 +1,376 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.bc{
+    background: url("../images/1.jpg") repeat  fixed;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.header{
+  width: 90%;
+  margin: 0 auto;
+  color: white;
+}
+.navbar1 .nav li a{
+  color: wheat;
+  font-size: 20px;
+}
+.navbar1{
+  width: 100%;
+margin: 20px;
+padding: 20px;
+
+}
+.content{
+  width: 80%;
+  margin: 0 auto;
+  padding-top:20px;
+}
+.fir_colm{
+    filter:alpha(opacity=70); /*IE婊ら暅锛岄�忔槑搴�50%*/
+    -moz-opacity:0.7; /*Firefox绉佹湁锛岄�忔槑搴�50%*/
+    opacity:0.7;/*鍏朵粬锛岄�忔槑搴�50%*/
+}
+
+.infoma{
+  background: #fff;
+  margin: 24px auto;
+}
+.infoma img{
+  width: 80%;
+  margin: 20px auto;
+}
+.infoma span{
+  color: #230f0f;
+  font-size: 10px;
+  display: block;
+}
+.infoma p{
+    text-align: center;
+    color: #797474;
+    font-size: 13px;
+  }
+  .btn-group-vertical input{
+
+      color: #8e8181;
+      font-size: 10px;
+      margin-bottom: 9px;
+  }
+  .items{
+     border: 1px #797474 dotted;
+     margin-top: 30px;
+     background: #fff;
+  }
+  .items p{
+      color: #230f0f;
+      font-size: 10px;
+  }
+ .items div{
+      text-align: center;
+  }
+  .sec_colm{
+      width: 90%;
+      float: left;
+      margin-top: 23px;
+      margin-left: 20px;
+      border: 1px double  #8b97f9;
+  }
+.blog{
+      width: 100%;
+      border-bottom: 1px dotted #8e8181;
+      float: left;
+      padding: 30px;
+  }
+ .blog p b{
+      color: #6338e2;
+  }
+   .blog p{
+  }
+.blog .reship{
+      float: right;
+  }
+ .blog span{
+      color: #86a7e8;
+      font-size: 18px;
+      clear: both;
+
+  }
+
+
+  .blog p{
+      color: #1b1629;
+      padding-top: 10px;
+  }
+ .blog ul{
+      width: 80%;
+      height: 30px;
+  }
+  .blog ul li{
+         float: left;
+      width: 25%;
+      border-right: 1px dotted blue;
+      text-align: center;
+      color: #7977ce;
+      margin-left:auto;
+      
+  }
+
+  .blog div .whole{
+      float: right;
+  }
+  .footer{
+      width: 100%;
+      height: 100px;
+      clear: both;
+        padding: 40px;
+        color: #aab0b6;
+  }
+  .footer .footer_text{
+      text-align: center;
+
+  }
+
+  /*blogger.css*/
+
+  .write_blog{
+    color: #5F85C5;
+    margin: 16px;
+    border-radius: 5px;
+    margin-top: 32px;
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+    opacity: 0.7;
+    float: right;
+ }
+
+ .items span{
+     float: right;
+     margin-top: -26px;
+     font-size: 13px;
+ }
+ .blog span .a{
+     font-size: 13px;
+ }
+/*write_blog.css*/
+.write_model{
+    width: 95%;
+    margin: 0 auto;
+
+}
+.title .input1{
+  width: 60%;
+  height: 30px;
+}
+.classify{
+    text-align: left;
+
+}
+.classify select{
+  margin-top: 10px;
+}
+.classify  .txt{
+    font-size: 14px;
+    color: #837cdc;
+}
+.button{
+    height: 100px;
+    text-align: center;
+    margin-top: 20px;
+}
+.button input{
+    color: #605FB1;
+    margin-right: 42px;
+    margin-top: 20px;
+}
+.settings{
+    text-align: left;
+
+}
+.settings .check{
+   margin-left: 75px;
+}
+.settings input{
+    margin: 10px;
+}
+.settings .comments{
+    font-size: 13px;
+    font-weight: 300;
+    color: #7583CC;
+}
+/*blog_directory.css*/
+.classif{
+  border: 1px #797474 dotted;
+  background: #fff;
+}
+.classif1 ul{
+    background: #fff;
+    padding: 10px;
+}
+.classif1 ul li{
+  list-style: disc;
+  list-style-position: inside;
+  border-bottom: 1px  #797474 dotted;
+  margin-bottom: 10px;
+    background: #fff;
+}
+.classif p{
+  color: #230f0f;
+  font-size: 10px;
+}
+.classif span{
+   float: right;
+   margin-top: -28px;
+}
+.classif1{
+  height: 30px;
+  line-height: 30px;
+  filter:alpha(opacity=70); /*IE婊ら暅锛岄�忔槑搴�50%*/
+  -moz-opacity:0.7; /*Firefox绉佹湁锛岄�忔槑搴�50%*/
+  opacity:0.7;/*鍏朵粬锛岄�忔槑搴�50%*/
+
+}
+
+.classif1 .edit{
+  float: right;
+}
+.color{
+  color: #337ab7;
+}
+.search{
+  border: 1px #797474 dotted;
+  background: #fff;
+  margin-top: 20px;
+}
+.search p{
+  color: #230f0f;
+  font-size: 10px;
+}
+.space{
+  height: 500px;
+}
+/*about_me.css*/
+.info{
+  filter:alpha(opacity=70); /*IE婊ら暅锛岄�忔槑搴�50%*/
+  -moz-opacity:0.7; /*Firefox绉佹湁锛岄�忔槑搴�50%*/
+  opacity:0.7;/*鍏朵粬锛岄�忔槑搴�50%*/
+  background: #fff;
+  padding-bottom: 20px;
+}
+.info p{
+  color: #230f0f;
+  font-size: 10px;
+}
+.info span{
+    float:right;
+    margin-top: -29px;
+}
+.info_ul ul{
+  padding: 25px;
+}
+.info_ul ul li{
+  border-bottom: 1px #797474 dotted;
+  margin-bottom: 10px;
+}
+.info_ul .fir{
+  font-size: 16px;
+color: #7577C3;
+}
+.info_ul .sec{
+  font-size: 14px;
+}
+.leave_mess span{
+  float:none;
+  margin-top: 0px;
+}
+.leave_mess .name{
+  color: #1E53A2;
+  font-weight: bold;
+}
+.leave_mess  .detail{
+  float: right;
+  margin-top: -20px;
+}
+.last{
+  text-align: center;
+  padding: 10px;
+
+}
+/*welcome.html*/
+.panel{
+  filter:alpha(opacity=70); /*IE婊ら暅锛岄�忔槑搴�50%*/
+  -moz-opacity:0.7; /*Firefox绉佹湁锛岄�忔槑搴�50%*/
+  opacity:0.7;/*鍏朵粬锛岄�忔槑搴�50%*/
+}
+.blog i{
+    font-size: 10px;
+    margin-left: 6px;
+}
+.blog .time{
+  color: #9d9dbb;
+      font-size: 13px;
+}
+.blog .ul_dia{
+  margin-top: 30px;
+}
+.blog .ul_dia i{
+  font-size: 16px;
+}
+.blog .comment{
+  text-align: center;
+  margin-top: 50px;
+  background: #fff;
+  display: none;
+}
+.comment textarea{
+  width: 70%;
+  background: #f9f9f9;
+}
+ .comment button{
+  width: 30%;
+}
+.sub_title{
+  margin: 0 auto;
+  padding: 15px;
+}
+.sub_title span{
+  font-size: 16px;
+  color: #8687cc;
+  font-weight: bolder;
+}
+.person_info{
+  text-align: center;
+}
+.blog ul,.reship,.whole{
+  cursor: pointer;
+}
+.border_buttom{
+  border-bottom: 2px dotted #887373;
+  margin: 10px;
+  padding-bottom: 18px;
+}
+.person_info img{
+  max-width: 60%;
+  margin: 0 auto;
+
+}
+.person_info p{
+  font-size: 10px;
+}
+.box_css{
+   -webkit-box-shadow:0 0 10px rgba(0, 204, 204, .5);
+    -moz-box-shadow:0 0 10px rgba(0, 204, 204, .5);
+    box-shadow:0 0 10px rgba(0, 204, 204, .5);
+}
+hr{
+      border-top: 1px solid #584545;
+}

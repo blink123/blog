@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>write blog</title>
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../bootstrap/css/write_blog.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+<div class="bc">
+    <div class="login_register">
+        <input class="register" type="button" value="register" />
+        <input class="login" type="button" value="login" />
+    </div>
+    <div class="write_model">
+        <div class="title">
+            <label for="title">Title:</label>
+            <input type="text" required="required" id="title">
+        </div>
+        <div class="content">
+            <textarea></textarea>
+        </div>
+        <div class="classify">
+            <label>Classify:</label>
+            <select>
+                <option>choose</option>
+                <option>private blog</option>
+            </select>
+            <span><a>create your classify</a></span>
+        </div>
+        <div class="settings">
+            <label>settings:</label>
+            <input type="radio" name="comments" value="everyone can make comments" /><label class="comments">everyone can make comments</label>
+            <input type="radio" name="comments" value="nobody can make comments" /><label class="comments">nobody can make comments</label><br/>
+            <input type="checkbox" class="check" name="checkbox" value="be watched by yourself" /><label class="comments">be watched by yourself</label>
+            <input type="checkbox" name="checkbox" value="everyone can watch it" /><label class="comments">everyone can watch it</label>
+        </div>
+        <div class="button">
+            <input type="button" value="release blog" />
+            <input type="button" value="save to the draft box" />
+        </div>
+     </div>
+    
+    <div class="footer">
+    <div class="footer_text">
+            <p>Copyright&COPY;2017All rights Resevered</p>
+            <p>版权所有</p>
+        </div>
+    </div>
+</div>
+
+      
+      
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
+

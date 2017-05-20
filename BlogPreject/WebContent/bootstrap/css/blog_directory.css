@@ -1,0 +1,182 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-4-23, 15:21:05
+    Author     : 27291_000
+*/
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.bc{
+    background: url(../images/background.jpg) repeat  fixed;
+    background-size: 100% 100%;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    float: left;
+}
+.login_register{
+    width:100%;
+    height: 30px;
+    position: fixed;
+    top: 0;
+    background: #7070A5;
+}
+.login_register input{
+    float: right;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    margin: 5px;
+    width: 47px;
+    background: #A6AECE;
+}
+.header{
+    width: 880px;
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.header .nav1{
+    position: relative;
+    left: 120px;
+    width: 400px;
+    height: 40px;
+    margin-top: 30px;
+}
+.head1 h1,span{
+    color: #fff;
+}
+.header .write_blog{
+   color: #5F85C5;
+    font-size: 12px;
+    margin-right: 16px;
+    border-radius: 5px;
+    border: outset;
+    background: #fff;
+     margin-top: 32px;
+    filter:alpha(opacity=70); /*IE滤镜，透明度50%*/
+    -moz-opacity:0.7; /*Firefox私有，透明度50%*/
+    opacity:0.7;/*其他，透明度50%*/
+    float: right;
+}
+.colms{
+    width: 880px;
+    margin: 0 auto;
+}
+.fir_colm{
+    width: 200px;
+    float: left;
+
+    margin-top: 32px;
+    filter:alpha(opacity=70); /*IE滤镜，透明度50%*/
+    -moz-opacity:0.7; /*Firefox私有，透明度50%*/
+    opacity:0.7;/*其他，透明度50%*/
+}
+
+.fir_colm .items{
+    width: 200px;
+   border: 1px #797474 dotted;
+   margin-top: 30px;
+       background: #fff;
+}
+.fir_colm .items span{
+    float: right;
+    margin-top: -26px;
+    font-size: 13px;
+}
+.fir_colm .items p{
+    color: #230f0f;
+    font-size: 10px;
+}
+.items ul{
+    width: 180px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.items ul li{
+    list-style: square inside;
+    width: 150px;
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px dotted #797474;
+}
+.sec_colm{
+    width: 600px;
+    display:inline-block;
+    float: left;
+    margin-top: 32px;
+    margin-left: 20px;
+    border: 1px double  #8b97f9;
+}
+.sec_colm .blog{
+    width: 580px;
+    border-bottom: 1px dotted #8e8181;  
+    float: left;
+}
+.sec_colm .blog p b{
+    color: #6338e2;
+}
+.sec_colm .blog p{
+}
+.sec_colm .blog .reship{
+    float: right;
+}
+.sec_colm .blog span{
+        color: #86a7e8;
+    font-size: 18px;
+    clear: both;
+    
+}
+.sec_colm .blog span a{
+    font-size: 13px;
+}
+.sec_colm .blog p{
+    color: #1b1629;
+    padding-top: 10px;
+}
+.sec_colm .blog ul{
+    width: 300px;
+    height: 30px;
+}
+.sec_colm .blog ul li{
+       float: left;
+    width: 96px;
+    border-right: 1px dotted blue;
+    text-align: center;
+    color: #7977ce;
+}
+
+.sec_colm .blog div .whole{
+    float: right;
+}
+.sec_colm iframe{
+    border:0;
+    width: 580px;
+    float: left;
+    scrolling:no;
+    background-color: transparent;
+   
+}
+.footer{
+    width: 100%;
+    height: 100px;
+        clear: both;
+      padding: 40px;
+}
+.footer .footer_text{
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}

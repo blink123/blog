@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>blog directory</title>
+    <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../bootstrap/css/blog_directory.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+     <ul class="nav nav-tabs">  
+         <li class="active"><a href="#home">首页</a></li>  
+         <li><a href="#profile">介绍</a></li>  
+         <li><a href="#messages">消息</a></li> 
+         <li><a href="#settings">设置</a></li>
+     </ul> 
+      <div class="tab-content">  
+          <div class="tab-pane active" id="home">...</div>  
+          <div class="tab-pane" id="profile">...</div>  
+          <div class="tab-pane" id="messages">...</div> 
+          <div class="tab-pane" id="settings">...</div>     
+      </div> 
+      <script>  $(function () {    $('.tabs a:last').tab('show')  })</script>
+
+      
+      
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
+     <script>
+        $(function(){
+             $(".write_blog").click(function(){
+            window.location.href="wirte_blog.html";
+            });
+        });
+       
+    </script>
+  </body>
+</html>
+
